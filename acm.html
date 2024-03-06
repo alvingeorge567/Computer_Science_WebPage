@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="collapsible.js"></script>
+	<title>Stonehill ACM</title>
+</head>
+
+<body onload="createCollapsibleListeners()">
+	<header>
+		<a href="http://www.stonehill.edu"><img src="resources/stonehill-logo.png" alt="Stonehill logo"></a>
+		<div id="header-links">
+			<a target = "_blank" href="http://www.stonehill.edu"> STONEHILL COLLEGE </a>
+			<a href="index.html"> COMPUTER SCIENCE </a>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">CS Homepage</a></li>
+			<li><a href="majors.html">CS Major</a></li>
+			<li><a href="minors.html">CS Minor</a></li>
+			<li><a href="engineering.html">Computer Engineering</a></li>
+			<li><a href="cscourses.html">CS Courses</a></li>
+			<li><a href="fallCourses.html">Fall Courses</a></li>
+			<li><a href="springCourses.html">Spring Courses</a></li>
+			<li><a href="faculty.html">Faculty</a></li>
+			<li><a href="faq.html">FAQ</a></li>
+			<li><a href="acm.html">ACM Student Chapter</a></li>
+			<li><a href="internships.html">Internships</a></li>
+			<li><a href="gradSchool.html">Grad School & Career Info</a></li>
+			<li><a href="#">NSF C++ Workshop</a></li>
+			<li><a href="http://web.stonehill.edu/compsci/NSF_Java/index.htm">NSF Java Workshop</a></li>
+			<li><a href="http://www.stonehill.edu">Stonehill College<br>320 Washington Street<br>North Easton, MA 02357</a></li>
+		</ul>
+	</nav>
+
+	<div class="main-div">
+		<div id="acm-buttons">
+			<a target = "_blank" class="acm-btn" href="http://www.acm.org/">ACM Info</a>
+			<a target = "_blank" class="acm-btn" href="http://www.acm.org/membership/student/">Join ACM</a>
+			<a target = "_blank" class="acm-btn" href="http://www.facebook.com/search/?q=stonehill+cs&amp;init=quick#%21/pages/Department-of-Computer-Science-at-Stonehill-College/112245713124?ref=ts">Join our Facebook Group</a>
+		</div>
+		<div id="acm-head">
+			<h1>Stonehill Student Chapter of the ACM</h1>
+			<p>Faculty Sponsor: Professor Shai Simonson, <a target = "_blank" href="mailto:shai@stonehill.edu">shai@stonehill.edu</a></p>
+		</div>
+		<div id="acm-officers">
+			<h4>Officers 2023 - 2024</h4>
+			<p>
+				Co-Presidents: <a target = "_blank" href="mailto:thernandez2@students.stonehill.edu">Tiziana Hernandez</a>
+				and <a target = "_blank" href="mailto:nsamios@students.stonehill.edu">Nick Samios</a><br>
+				Secretary: <a target = "_blank" href="mailto:jpapa@students.stonehill.edu">Johana Papa</a>
+				Treasurer: <a target = "_blank" href="mailto:rpaul@students.stonehill.edu">Rory Paul</a>
+			</p>
+		</div>
+
+		<h2>Events:</h2>
+		<button class="collapsible">2023-24 School Year</button>
+		<div class="content">
+			<ol class="list">
+				<li>
+					<i>September 11th:</i><br>
+					<p>First Meeting - Intro presentation about the club, ice breaker/game.</p>
+				</li>
+				<li>
+					<i>September 25th:</i><br>
+					<p>Meet the New faculty - (Sam and Vidyashree)</p>
+				</li>
+				<li>
+					<i>October 16th:</i><br>
+					<p>Guest Speaker:  Alumnus Matt Hinds, TripAdviser</p>
+				</li>
+				<li>
+					<i>October 23th:</i><br>
+					<p>Professor Vidyashree Nagaraju</p>
+					<a href=''>Research and Scholarship Opportunities for Students</a>
+				</li>
+				<li>
+					<i>October 29th:</i><br>
+					<p>ICPC Programming Contest</p>
+				</li>
+				<li>
+					<i>October 30th:</i><br>
+					<p>CS Jeopardy Game</p>
+				</li>
+				<li>
+					<i>November 13th:</i><br>
+					<p>Intern workshop - interview prep, LinkedIn tips, networking, REUs</p>
+				</li>
+				<li>
+					<i>November 27th:</i><br>
+					<p>Social - CS Bingo</p>
+				</li>
+				<li>
+					<i>December 11th:</i><br>
+					<p>Guest Speaker: Jesse Suero</p>
+				</li>
+			</ol>
+			<p>Speakers coming: John Ferris, Kayak. David Lawson, Amazon?</p>
+		</div>
+
+		<button class="collapsible">2022-23 School Year</button>
+		<div class="content">
+			<ol class="list">
+				<li>
+					<p>When: Thursday, September 15, 2022, 7-8 PM, Where: online</p>
+					<p>Speaker: Gerald Jay Sussman, Professor of Electrical Engineering at MIT</p>
+					<p>ACM Boston Meetup is a non-profit professional group that meets regularly to discuss diverse topics in computer science such as
+					predictive analytics, applied machine learning, statistical modeling, open data, data visualization, user experience, user research, and
+					artificial neural networks. </p>
+					<p>For more information, visit our Meetup page at</p>
+					<a target = "_blank" href="https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.meetup.com%2FACM-Boston&amp;data=05%7C01%7Cshai%40STONEHILL.EDU%7C0b91f91c0ee744076c3808da910558a9%7C2d1c5372f88f46c1a557ed75b9b2893c%7C1%7C0%7C637981749394691507%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=q5a5pX%2B9a9EhOryw%2FLm9LZBXKTXqL9sfjjuLs6gHhDU%3D&amp;reserved=0">https://www.meetup.com/ACM-Boston</a>.
+				</li>
+						
+				<li>
+					<p>When: Monday, October 17, 11:30.</p>
+					<p>Where: CS Lab</p>
+					<p>
+						Odeta Pine, CEO G7Tech Services, will speak on computer science and entrepreneurship,
+						and internship opportunities.
+						You can watch the talk 
+						<a target = "_blank" href="https://stonehill.zoom.us/rec/share/NuiQZE4u9lFSAum5-r4EWgSMXmxHy5rnHY-w-TlrGnPvcwQmv_4admw8XxT532-W.me5gFjwesV1LG3y1">here</a>
+						with password "=acmclub1"
+					</p>
+				</li>
+
+				<li>
+					<p>HTML and CSS Workshop with Adam Falcone, October 10</p>
+				</li>
+				
+				<li>
+					<p>When: Saturday, October 29, 2022</p>
+					<p>Where: Sherman Building, Boston University</p>
+					<a target = "_blank" href="https://organize.mlh.io/participants/events/8321-techtogether-boston?utm_campaign=hackathon">TechTogether Hackathon</a>
+				</li>
+
+				<li>
+					<p>Personal Homepage Competition. Winner: Rory Paul</p>
+				</li>
+				
+				<li>
+					<p>
+						<a target = "_blank" href="Machine_Learning_Workshop.pptx">Machine Learning Workshop</a>
+						with Adam Falcone and Ashley Swift, October 31, College Center 217.
+						<a target = "_blank" href="https://www.acm.org/chapters/chapter-newsletters/2022/12">ACMmentioned us!</a>
+					</p>
+				</li>
+
+				<li>
+					<p>Women in STEM hosting</p>
+					<p>Stefany Palmieri, Data Services and Quality Assurance Manager at Abacus Health Solutions, November 7, 2022, 11:30, Meehan 216.</p>
+				</li>
+
+				<li>
+					<p>Resume Workshop for CS, with Andrew Leahy. November 14, 2022, 11:30, CC 217.</p>
+					<a target = "_blank" href="Resume%20Workshop%20.pdf">Presentation.</a>
+					<a target = "_blank" href="Advanced%20Resume%20Worksheet.pdf">Sample.</a>
+				</li>
+				
+				<li>
+					<p>Speaker Joe Wroblewski from Abacus Health, Cranston, RI</p>
+					<p>November 28, 2022, 11:30 CC 217. Last fall event.</p>
+					<a target = "_blank" href="Stonehill%20ACM%20Talk%202022-11-28.pptx">Career Advice for Software Engineers</a>
+				</li>
+
+				<li>
+					<p>Professor Bob Dugan on ChatGPT, February 6, 2023.</p>
+				</li>
+				
+				<li>
+					<p>Alumnus Amy Johnson, General Dynamics, Feb. 20, 2023.</p>
+				</li>
+				
+				<li>
+					<p>
+						<a target = "_blank" href="https://icpc.global/regionals/finder/northeast-north-america">ICPC</a>
+						- Team Recursion: Adam Falcone, Ashley Swift, Tiziana Hernandez
+					</p>
+				</li>
+
+				<li>
+					<p>First ever Stonehill CS Alumni Dinner, February 28, 2023.</p>
+				</li>
+
+				<li>
+					<p>Alumnus Brendan Buono, Amazon, March 20, 2023.</p>
+				</li>
+								
+				<li>
+					<p>Professor Mike Sale', Scrum/Agile Software Development Practices, April 3, 2023</p>
+				</li>
+																									
+				<li>
+					<p>Alumnus Olivia Roy, Notre Dame, HubSpot, April 17, 2023</p>
+				</li>
+
+				<li>
+					<p>Social Scavenger Hunt.</p>
+				</li>
+			</ol>
+		</div>
+
+		<button class="collapsible">2021-22 School Year</button>
+		<div class="content">
+			<ul class="list">
+				<li>ACM Hour of Code - December 6, 2021</li>
+				<li>Choose2Reuse Recruitment - November 10, 2021</li>
+				<li>John Pacheco - Guest Speaker - October 26, 2021</li>
+				<li>ACM Information Meeting- October 1, 2021</li>
+			</ul>
+		</div>
+		
+		<button class="collapsible">2020-21 School Year</button>
+		<div class="content">
+			<ul class="list">
+				<li>ECGC - Virtual East Coast Game Conference - April 21-23, 2021</li>
+				<li>Veracode Hacker Games - March 15 -26, 2021</li>
+				<li>Stony Brook University Hackathon - February 12,  2021</li>
+				<li>WHACK, Wellesley College Hackathon, November 7-8, 2020</li>
+				<li>
+					<p>Matt Fuller, former Mr. Stonehill, Brown University Alum, and co-founder of Starburst</p>
+					<p>Grad School, Industry, and CS Startups</p>
+					<p>November 9, 2020, Monday, 5:00 Zoom</p>
+				</li>
+			</ul>
+		</div>
+
+		<button class="collapsible">Earlier Years</button>
+		<div class="content" id="last-collapse">
+			<ul class="list">
+					<li>December 5, 2019, Thursday, 5:00, CS Lab, Stonehill Alum Zoe Lavoie from Slalom Working World After Stonehill CS</li>
+					<li>November 13, 2019, Wednesday, 5:00, CS Lab Drew Harmon, Stonehill CS Alum, Computer Science Startups: A How-To Guide. 
+							Download Drew Harmon's slides on Startups and Entrepreneurship <a href="#">here</a>
+					</li>
+					<li>November 2-3, 2019, WHACK, Wellesley College Hackathon</li>
+					<li>October 19, 2019, Saturday, ACM BOSPRE, 26 teams, 11 problems Hosted by Stonehill for the first time. Team Recurrence: 
+							Volodymyr Bobyr, Patrick O'Shea, Nico Cannavo Berrezueta Team Recursion: Susan Joseph, Alex Avery, Mackenzie Rougeau Team 
+							Recursive: James Milinazzo, Luciano Gianinni, Robert Spinello Recursion solved 3 (17th), Recurrence solved 3 (22nd), 
+							Recursive solved 2 (23rd).
+					</li>
+					<li>October 1, 2019, Wednesday, 6:00-8:30 PM, Cardinal Spellman High School 738 Court Street, Brockton, presents: Scott Hartley, 
+							author of "The Fuzzy and the Techie" speaking on: The Future of Jobs in the Age of AI Panelists include: Stonehill adjunct 
+							professor Janet Brown Sederberg, Stonehill CS alum Drew Harmon, and Stonehill CS student Volod Bobyr
+					</li>
+					<li>April 12, 2019 CCSCNE Programming competition: Theo Slepski, Malaika Mckenzie-Bennett, Nico Cannavo Berrezueta 12/28 with 
+							three out of eight problems solved. Malaika's poster came in 2nd out of 44
+					</li>
+					<li>October 13, 2018, BOSPRE, 31 teams, 10 problems Team Recursive: Volodymyr Bobyr, Malaika Mckenzie-Bennett, Sabin Litchfield 
+							Team Recursion: Daniel Smolinksi, Zach Henry, Mike Wojtyna Team Recurrence: Neil Fitzgerald, Wyatt Dominguez, Robert Coleman 
+							Recursive solved 2 (25th); Recursion solved 3 (14th); Recurrence solved 3 (17th)
+					</li>
+					<li>April 4, 2018, Duffy 101, 6:30 PM, Lecture on Cryptocurrencies and Blockchains</li>
+					<li>January 31, 2018, Wednesday, 5:15 PM, Library Disco Joel Silberman, <a href="http://scrum.org">http://scrum.org</a>, Agile 
+							Software Development
+					</li>
+					<li>November 20, 2017, Monday - 5:00 PM - 308 Stanger Kayak Presentation</li>
+					<li>November 3-5, 2017 MIT Energy Hackathon, Marilyn Zarco, Sydney Martin, Neil Fitzgerald</li>
+					<li>October 23, 2017, Monday - 5:00 PM - 308 Stanger Staples Recruitment and Presentation.</li>
+					<li>October 14, 2017, BOSPRE 2017 Team_Recursion: Matt Young, Volod Bobyr, Malaika McKenzie-Bennett Team Recurrence: Marilyn Zarco, 
+							Sydney Martin, Neil FItzgerald Recursion solved 1/10 and Recurrence solved 2/10.
+					</li>
+					<li>April 24, 2017, Monday - 5:30 PM - 308 Stanger Beyond the Desk Hadley Markoski, former CS student and rural aficionado talks 
+							about weaving a career as a developer and IT professional into a life that took a left turn at Albuquerque. She's head of IT and 
+							development at an independent Apple Authorized Reseller. She lives in central Vermont just outside one of the smallest state capitals 
+							in the US and the only one without a McDonalds.
+					</li>
+					<li>February 7, 2017 - Tuesday 5:15 PM - STAPLES Talent Acquisition - 308 Stanger University Recruitment - Devon Cox</li>
+					<li>November 7, 2016 - Monday 4:00 PM - CS Colloquium - 308 Stanger The History of IT: 1968-present, by Jim Fahey</li>
+					<li>October 15, 2016 - BOSPRE 2016 Nikolay Lisichenok, Greg Costello, Matt Young</li>
+					<li>April 20, 2016 - Wednesday 4:00 PM - CS Colloquium - 308 Stanger Kelsey Anderson, What is User Experience?</li>
+					<li>April 3, 2016 - Balgorfest Team 1: Danielle Misiaszek, Brandon Hanson, Ben DiMattia 5 of 7 problems completed correctly Team 2: Matt 
+							Messier, Brandon Powers, Mike Middleton 3 of 7 problems completed correctly
+					</li>
+					<li>March 16, Wednesday, 4:00 PM - CS Colloquium Prasad Parulekar, Trip Advisor, General Design Principles.</li>
+					<li>Spring 2016 - CCSNE Conference Programming Contest</li>
+					<li>October 17, 2015, Saturday, ACM BOSPRE Programming Contest. Team Recursion: David Lawson, Danielle Misiaszek, Ben DiMattia Team Closure: 
+							Matt Messier, Brandon Powers, Steve Villani Team Induction: Brandon Hansen, Mike Dias, Mike Middleton Team Recursion solved one problem 
+							to score 13th place out of 25
+					</li>
+					<li>October 7, 2015, Wednesday, Matt Hinds, Stonehill Alum, TripAdviser Succeeding with a Technical Interview 308 Stanger 5:45 PM Refreshments 
+							Served Prior to Talk
+					</li>
+					<li>April 22, 2015, Wednesday, CS Colloquium, Stonehill Alum and VP Technology at Novetta, Drew Harmon Data Structures and Algorithms in the 
+							Real World 308 Stanger 5:00 PM Refreshments Served Prior to Talk
+					</li>
+					<li>March 18, 2015, Wednesday, 308 Stanger, 4:00 PM Harpreet Singh from Fidelity will speak about Big Data</li>
+					<li>March 7, 2015, Saturday, Brandeis University, Balgorfest Team: Matt Messier, Kraig Boates, Ryan Randall</li>
+					<li>March 4, 2015, CS Colloquium, Professor Kevin O'Kane, University of Northern Iowa, 308 Stanger, 5:00 PM, Refreshments will be served prior 
+							to talk. The Mumps Programming Language - and its Medical Applications Talk Slides
+					</li>
+					<li>Spring 2015 Balgorfest</li>
+					<li>October 27, 2014, Raytheon designer of USS Zumwalt, Wade Knudson Pettit Atrium, 7:00 PM.</li>
+					<li>October 22, 2014 - Stonehill Alums Richie DeJesus and John Ferris from Kayak, Internships at Kayak, 5 PM, 308 Stanger</li>
+					<li>October 18, 2014, Saturday, ACM BOSPRE Programming Contest. Team Recursion: Kraig Boates, Lauren Lange, Jennifer McBrine Team Recurrence: 
+							David Lawson, Ryan Randall, Michael Middleton Both teams scored two problems correctly.
+					</li>
+					<li>April 26, 2014, CCSCNE Programming Contest, Team: Kraig Boates, Nick Kirkpatrick, Ryan Randall Placed 22/31</li>
+					<li>April 23, 2014, Student Talks - Stanger Lab</li>
+					<li>February 2014, Hackathon</li>
+					<li>October 2013, Saturday, ACM Programming Contest BOSPRE, Stonehill Skyhawks: Kraig Boates, Lauren Lange, Jen McBrine Placed 11/14 (tied for 
+							ninth place with five teams who scored 1/8)
+					</li>
+					<li>April 24 and May 1, 2013, 5:15 PM, 308 Stanger. Honors Talk, Nate Bowditch, Genetic Algorithm</li>
+					<li>April 12, 2013, CCSCNE Programming Contest Team: Doug Bodkin, Nate Bowditch, Joey Scherr Placed 16th out of 33 teams. (2/6 problems correct). 
+							This one was closer than it looked. The team had three more almost done, including one they had completed in Algorithms class. Unfortunately, 
+							time crunch and minor glitches spoiled the day.
+					</li>
+					<li>March 25, 2013, Monday, 5:30 PM, 308 Stanger Stonehill Alum Ryan Curtis from Amazon How to Handle Software Interviews: Puzzles and Experiences 
+						Refreshments will be Served
+					</li>
+					<li>October 24, 2012, Wednesday, 5:00 PM, 308 Stanger, Stonehill Alum Drew Harmon and Dan St. George from Digital Results Group Talk on Math in 
+							Programming Careers Refreshments will be served
+					</li>
+					<li>October 13, 2012, Saturday, ACM Programming Contest - BOSPRE 2012 Teams: Stonehill Recursion: Brendan Buono, Doug Bodkin, Kelsey Napolione 
+							Placed 16/19.(12-way tie for 7th) Stonehill Recurrence: Lauren Lange, Joey Scherr, Peter Steiwer Placed 17/19 (12-way tie for 7th)
+					</li>
+					<li>April 19, 2012, Thursday, 8:00 PM- Infinite, Stanger Night, 308 Stanger Free Pizza, Snacks, Drinks, Fun, Games, Social</li>
+					<li>April 12, 2012, Thursday, 4:00 PM, 308 Stanger Ray Powers, IBM, Notre Dame and Stonehill Alum Smarter Planet - Cloud Computing and Appliances</li>
+					<li>March 29, 2012 Thursday, 2:00-4:00, Commons InterSystems is interviewing on Campus On-site screening tests will be offered.</li>
+					<li>March 29, 2012, Thursday, 4:00 PM, 308 Stanger Kelsey Anderson, Athena Healthcare User Experience (UX)</li>
+					<li>March 17, 2012, Northeast Linux Fest, Worcester State University Hackerspace competition</li>
+			</ul>
+		</div>
+		<h2>Interesting Links</h2>
+		<ul class="list" id="link-list">
+			<li>
+				<a target = "_blank" href="https://open.kattis.com/">Kattis Problem Archive</a>
+			</li>
+			<li>
+				<a target = "_blank" href="http://code.org/">An Hour of Code</a>
+			</li>
+			<li>
+				<a target = "_blank" href="http://www.topcoder.com/tc">Join TopCoder - A Competition for Programmers</a>
+			</li>
+			<li>
+				<a target = "_blank" href="https://leetcode.com/">Join Leetcode</a>
+			</li>
+			<li>
+				<a target = "_blank" href="http://www.codechef.com/">Try CodeChef</a>
+			</li>
+			<li>
+				<a target = "_blank" href="http://www.techinterview.org/">Practice for Tech Interview Puzzles</a>
+			</li>
+			<li>
+				<a target = "_blank" href="http://www.seas.harvard.edu/hc3/bospre/">ACM Programming Contest (BOSPRE)</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
